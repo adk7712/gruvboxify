@@ -1,0 +1,41 @@
+[project]
+name = "gruvboxify"
+version = "1.1.0"
+description = "Convert images to the Gruvbox color palette"
+readme = {file = "README.md", content-type = "text/markdown"}
+license = { text = "MIT" }
+requires-python = ">=3.8"
+authors = [
+    { name="Aditya", email="theveryjeff712@gmail.com" }
+]
+maintainers = [
+  { name="Aditya", email="theveryjeff712@gmail.com" }
+]
+dependencies = [
+    "numpy>=2.2.2",
+    "Pillow>=10.0.0"
+]
+keywords = [
+    "gruvbox",
+    "cli",
+    "gruvboxify",
+    "wallpaper",
+    "image",
+    "palette",
+    "color"
+]
+
+[project.scripts]
+gruvboxify = "gruvboxify:main"
+
+[project.urls]
+"Homepage" = "https://github.com/adk7712/gruvboxify"
+"Bug Tracker" = "https://github.com/adk7712/gruvboxify/issues"
+"Changelog" = "https://github.com/adk7712/gruvboxify/blob/master/CHANGELOG.md"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["gruvboxify"]

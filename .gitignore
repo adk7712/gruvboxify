@@ -1,0 +1,8 @@
+.vscode/
+*.egg-info/
+build/
+assets/
+out/
+dist/
+
+.DS_Store
